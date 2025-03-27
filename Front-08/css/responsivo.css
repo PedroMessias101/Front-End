@@ -1,0 +1,42 @@
+/*Mobile*/
+@media screen and (max-width: 480px) {
+    body {
+        background: red;
+    }
+}
+
+/* EXTRA small devices */
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        background: orange;
+    }
+}
+
+/* Small tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        background: pink;
+    }
+}
+
+/* Tablet/laptop */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        background: rgb(128, 0, 255);
+    }
+}
+
+/* Desktop */
+@media (min-width: 1200px) and (max-width: 1999px) {
+    body {
+        background: rgb(122, 12, 34);
+    }
+}
+
+/* Extra large */
+@media (min-width: 1920px) {
+    body {
+        background: rgb(246, 255, 0)
+    }
+}
+
